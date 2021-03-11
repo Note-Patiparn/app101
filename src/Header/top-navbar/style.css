@@ -1,0 +1,18 @@
+.topnav-container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    justify-content: right;
+    padding: 25px;
+    padding-bottom: 50px;
+}
+.topnav-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0 8px;
+    font-size: 10px;
+}
+

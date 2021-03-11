@@ -1,0 +1,39 @@
+footer {
+    font-size: 12px;
+    line-height: 1.5;
+    border-top: 1px solid gray;
+    margin-top: 50px;
+}
+.footer-container{
+    max-width: 1170px;
+    margin: auto;
+}
+.footer {
+    padding: 70px 0;
+
+}
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col {
+    width: 25%;
+    padding: 0   15px;
+    position: relative;
+}
+.tel {
+    margin-bottom: 15px;
+}
+.phone, .bank, .shop-info, .footer-link {
+    list-style: none;
+}
+.footer-link {
+    font-weight: 400;
+}
+.footer-link li {
+    padding-bottom: 10px;
+}
+.footer-link li:hover {
+    color: gray;
+    cursor: pointer;
+}
